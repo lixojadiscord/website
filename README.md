@@ -1,2 +1,4 @@
-# website
-The official lixoja bot website. (Currently in development)
+# Lixoja Website 
+This is the official repo from the lixoja website.
+
+
