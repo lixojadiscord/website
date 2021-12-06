@@ -1,4 +1,3 @@
-
 const boxOwners = document.getElementById("owners_list");
 const boxStaff = document.getElementById("staff_list")
 
