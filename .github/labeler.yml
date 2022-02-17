@@ -1,0 +1,14 @@
+root:
+- '*'
+
+# .github changes
+.github/workflows:
+- '.github/workflow/*.yml'
+
+
+.github/ISSUE_TEMPLATE:
+- '.github/ISSUE_TEMPLATE/*.yml'
+
+# Subpages changes
+.pages/partners.html:
+- '.partners/partners.html'
