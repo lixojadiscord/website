@@ -11,7 +11,7 @@
     <meta content="Lixoja - Imagine a professional discord server" property="og:title" />
     <meta content="This is the official site for the lixoja discord bot!" property="og:description" />
     <meta content="https://www.lixoja.xyz/" property="og:url" />
-    <meta content="assets/favicon.png" property="og:image" />
+    <meta content="../assets/favicon.png" property="og:image" />
     <title>Lixoja</title>
 </head>
 
@@ -44,10 +44,10 @@
                             Links
                         </a>
                         <ul class="dropdown-menu bgn" aria-labelledby="linksdrop">
-                            <li><a class="dropdown-item text-muted font-weight-bold" href="" target="_blank">Invite
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://www.lixoja.xyz/invite" target="_blank">Invite
                                     Bot</a>
                             </li>
-                            <li><a class="dropdown-item text-muted font-weight-bold" href="" target="_blank">Support
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://support.lixoja.xyz/" target="_blank">Support
                                     Server</a></li>
                             <li><a class="dropdown-item text-muted font-weight-bold" href="./faq.html">FAQ</a></li>
                             </li>
@@ -74,6 +74,8 @@
     <div class="jumbotron text-center bg-transparent">
         <h1 class="commandstitle">Commands</h1>
         <p class="lead commandssub">View the commands for Lixoja.</p>
+        <p class="lead commandssub">This page is not completed, so not all commands are be listed here.</p>
+
         <hr>
         <input id="myInput" type="text" class="searchbox" placeholder="Search">
         <br>
@@ -87,7 +89,7 @@
         <br>
         <div id="myCmd">
             <br>
-            <button type="button" class="collapsible">welcome<span> - Send a Embed in a channel when a user joins the server.</span></button>
+            <button type="button" class="collapsible">welcome<span> - Send a message in a channel when a user joins the server.</span></button>
             <div class="content">
                 <h4 style="color: rgb(169, 247, 247);">Category:</h4>
                 <p style="color: aqua;">Welcome</p>
@@ -97,18 +99,34 @@
                 <p>{mention} - Mention the user.</p>
                 <h4 style="color: #cccccc;">The default messge:</h4>
                 <p>Hello {name}, welcome to the server! 👋</p>
-                <h4 style="color: #cccccc;">Examples:</h4>
-                <p>/welcome setup</p>
-                <p>/welcome reset</p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links, Attach Files</p>
             </div>
             <br>
             <br>
-            <button type="button" class="collapsible">about<span> - Show the botinformations</span></button>
+            <button type="button" class="collapsible">leave<span> - Send a message in a channel when a user leavs the server.</span></button>
+            <div class="content">
+                <h4 style="color: rgb(169, 247, 247);">Category:</h4>
+                <p style="color: aqua;">Leave</p>
+                <h4 style="color: #cccccc;">Variables for custom message:</h4>
+                <p>{guildname} - Display the current guildname</p>
+                <p>{name} - Display the username</p>
+                <p>{mention} - Mention the user.</p>
+                <h4 style="color: #cccccc;">The default messge:</h4>
+                <p>Hello {name}, welcome to the server! 👋</p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links, Attach Files</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">about<span> - Show informations about the bot.</span></button>
             <div class="content">
                 <h4 style="color: rgb(169, 247, 247);">Category:</h4>
                 <p style="color: rgb(19, 182, 160);">General</p>
                 <h4 style="color: #cccccc;">Usage:</h4>
                 <p>/about</p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links</p>
             </div>
             <br>
             <br>
@@ -117,9 +135,9 @@
                 <h4 style="color: rgb(169, 247, 247);">Category:</h4>
                 <p style="color: rgb(242, 44, 232);">Logging</p>
                 <h4 style="color: #cccccc;">Usage:</h4>
-                <p>/logging channel #Channel</Channel></p>
-                <h4 style="color: #cccccc;">Examples:</h4>
                 <p>/logging channel #Channel</p>
+                <h4 style="color: #cccccc;">Permissions:</h4>
+                <p>Send Messages, Embed Links, Manage Webhooks</p>
             </div>
         </div>
     </div>
