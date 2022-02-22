@@ -1,0 +1,26 @@
+{
+    "short_name": "Lixoja",
+    "name": "Lixoja - Imagine a professional discord server with lixoja.",
+    "icons": [
+      {
+        "src": "/assets/bot.png",
+        "type": "image/png",
+        "sizes": "400x400"
+      },
+      {
+        "src": "/assets/favicon.png",
+        "type": "image/jpg",
+        "sizes": "400x400"
+      },
+      {
+        "src": "/assets/favicon.png",
+        "type": "image/png",
+        "sizes": "400x400"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6"
+  }
