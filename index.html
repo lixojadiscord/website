@@ -35,7 +35,7 @@
             <a class="nav-link" href="pages/commands.html">Commands</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/team.html">Staff</a>
+            <a class="nav-link" href="pages/team.html">Team</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button" data-bs-toggle="dropdown"
@@ -77,7 +77,6 @@
     &nbsp;
     <a class="btn btn-dark" href="https://www.lixoja.xyz/invite">Join Support Server</a>
     &nbsp;
-    <a class="btn btn-dark" href="https://discord.gg/nwYVMYgdBH">Join Community Server</a>
   </div>
 
   <div class="bg-dark">
@@ -135,11 +134,10 @@
     </div>
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
       new Crate({
-          server: '907611576985591818', // Lixoja Community
-          channel: '910054824387674152', // #welcome
-          glyph: ['https://cdn.discordapp.com/avatars/913716671808675850/024c46f09375209f644a4ca8bb9e1fe5.webp?size=256', '100%']
+          server: '823860936954740767', // Lixoja Support
+          channel: '824774799145959464' // #💬│general
       })
-  </script>
+    </script>
     <footer class="mastfoot mb-auto">
       <div class="container-fluid mb-auto">
         <div class="row d-flex justify-content-center">
@@ -162,3 +160,13 @@
 </body>
 
 </html>
+<script>
+  if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+      })
+    }
+    window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault()
+    })	
+</script>
